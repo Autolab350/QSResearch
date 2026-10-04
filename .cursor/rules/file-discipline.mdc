@@ -1,0 +1,16 @@
+---
+description: File discipline — edit/consolidate, do not spawn Python files
+alwaysApply: true
+---
+
+# File discipline (cloud)
+
+Default: **edit the file that already owns the job.** Name the function you change.
+
+Allowed: in-place edit · delete old + add replacement · merge several files into one (delete extras).
+
+Forbidden: keep adding `.py` helpers, `*_v2.py`, parallel utils, or a new module when an existing one should absorb the change.
+
+If you add a file, say what existing file would have held it and what you delete/consolidate so net count does not creep.
+
+Master: `../QSWorkflow/MAP.md` when available.
