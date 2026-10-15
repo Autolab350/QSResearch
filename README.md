@@ -1,9 +1,14 @@
-# QSResearch
+# Portfolio application
 
-Strategy / trade-generation home (`strategy` package). Signal → `Intent`; allocation weights. Never sends.
+Universe → optimizer → target weights. Proposes allocations; never sends orders.
 
-```python
-from strategy import normalize, equal_weight
+Prices are read read-only from the QSConnect DuckDB (`prices_daily`). See `BUILD.md` for the full build plan.
+
+```bash
+cd App/QSResearch
+python3 -m venv .venv && source .venv/bin/activate
+pip install -e ".[dev]"
+portfolio init-db
+portfolio universes
+portfolio run --universe default --strategy equal_weight --json
 ```
-
-Operator door: `python -m qs` in QSWorkflow.

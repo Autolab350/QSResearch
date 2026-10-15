@@ -1,0 +1,84 @@
+{
+  "universe": "research_ai_energy_expand",
+  "strategy": "equal_weight",
+  "as_of": "2026-10-02",
+  "source": "desk.thesis.ai_energy_expand",
+  "long_only": true,
+  "thesis": "Forum/media AI-power peers + owner adds CCJ BEP GEV NEE COP \u2014 nuclear, renewables, uranium, turbines, LNG fuel adjacency.",
+  "names": {
+    "CEG": "Constellation Energy",
+    "NRG": "NRG Energy",
+    "NEE": "NextEra Energy",
+    "OKLO": "Oklo",
+    "SMR": "NuScale Power",
+    "LEU": "Centrus Energy",
+    "CCJ": "Cameco",
+    "BEP": "Brookfield Renewable",
+    "GEV": "GE Vernova",
+    "COP": "ConocoPhillips"
+  },
+  "core_already_listed": [
+    "VST",
+    "TE",
+    "TSLA",
+    "BE",
+    "TLN",
+    "AEP",
+    "CMS",
+    "DTE",
+    "FE",
+    "GEV",
+    "NEE",
+    "BEP"
+  ],
+  "allocations": [
+    {
+      "ticker": "CEG",
+      "weight": 0.1
+    },
+    {
+      "ticker": "NRG",
+      "weight": 0.1
+    },
+    {
+      "ticker": "NEE",
+      "weight": 0.1
+    },
+    {
+      "ticker": "OKLO",
+      "weight": 0.1
+    },
+    {
+      "ticker": "SMR",
+      "weight": 0.1
+    },
+    {
+      "ticker": "LEU",
+      "weight": 0.1
+    },
+    {
+      "ticker": "CCJ",
+      "weight": 0.1
+    },
+    {
+      "ticker": "BEP",
+      "weight": 0.1
+    },
+    {
+      "ticker": "GEV",
+      "weight": 0.1
+    },
+    {
+      "ticker": "COP",
+      "weight": 0.1
+    }
+  ],
+  "disclaimer": "Research proposal only \u2014 Portfolio proposes; never sends orders. No invented fills.",
+  "owner_adds_2026_10_02": [
+    "CCJ",
+    "BEP",
+    "GEV",
+    "NEE",
+    "COP"
+  ]
+}

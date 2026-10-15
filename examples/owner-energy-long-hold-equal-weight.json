@@ -1,0 +1,25 @@
+{
+  "universe": "research_ai_energy_expand",
+  "strategy": "equal_weight_owner_long_hold",
+  "as_of": "2026-10-02",
+  "source": "owner.stance.long_hold_bullish",
+  "long_only": true,
+  "thesis": "Owner-locked multi-year hold set: CCJ BEP GEV NEE COP. Shares / accumulate bias after late-Sep/early-Oct 2026 news. Research proposal only.",
+  "names": {
+    "CCJ": "Cameco",
+    "BEP": "Brookfield Renewable",
+    "GEV": "GE Vernova",
+    "NEE": "NextEra Energy",
+    "COP": "ConocoPhillips"
+  },
+  "allocations": [
+    {"ticker": "CCJ", "weight": 0.2},
+    {"ticker": "BEP", "weight": 0.2},
+    {"ticker": "GEV", "weight": 0.2},
+    {"ticker": "NEE", "weight": 0.2},
+    {"ticker": "COP", "weight": 0.2}
+  ],
+  "stance": "long_hold_bullish",
+  "product": "shares_first",
+  "disclaimer": "Research proposal only — Portfolio proposes; never sends orders. No invented fills."
+}

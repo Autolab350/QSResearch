@@ -1,0 +1,206 @@
+{
+  "run_id": 1,
+  "universe": "research_finance_owner",
+  "strategy": "equal_weight",
+  "as_of": "2026-10-01",
+  "source": "marketdata.prices_daily",
+  "lookback_days": 250,
+  "allocations": [
+    {
+      "ticker": "AA",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "AEIS",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "AI.PA",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "AIQUY",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "AIT",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "APD",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "ASML",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "ASX",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "AWK",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "BE",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "BHP",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "BWXT",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "CAT",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "CME",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "CTVA",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "CVX",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "ENPH",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "ETN",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "FGR.AX",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "FTAI",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "FTI",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "GRA.TO",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "IBM",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "ITM.L",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "LIN",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "LYSDY",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "MRK",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "NLLSY",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "NVDA",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "PL",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "PSN",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "PWR",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "QCOM",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "RBA",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "RCAT",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "RGLD",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "RIO",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "SEDG",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "SHLD",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "SLAB",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "STM",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "TRP",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "TSLA",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "TSM",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "TTWO",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "TXN",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "VALE",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "VEOEY",
+      "weight": 0.020408163265306124
+    },
+    {
+      "ticker": "XYL",
+      "weight": 0.020408163265306124
+    }
+  ]
+}

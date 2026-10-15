@@ -1,0 +1,100 @@
+{
+  "universe": "research_ai_energy",
+  "strategy": "equal_weight",
+  "as_of": "2026-10-02",
+  "source": "desk.thesis.ai_energy",
+  "long_only": true,
+  "thesis": "Memory, chips, and photonics already ran; energy is the next AI-supercycle bottleneck.",
+  "names": {
+    "VST": "Vistra",
+    "TE": "T1 Energy",
+    "TSLA": "Tesla",
+    "BE": "Bloom Energy",
+    "TLN": "Talen Energy",
+    "GEV": "GE Vernova"
+  },
+  "sa_lp_13f_overlap": {
+    "in_long_book": [
+      "BE",
+      "TE"
+    ],
+    "not_in_long_book": [
+      "VST",
+      "TSLA",
+      "TLN"
+    ],
+    "note": "SA LP Q2 2026 long stock had BE ~9.4% and TE ~0.23%; VST/TSLA/TLN absent from that filing."
+  },
+  "allocations": [
+    {
+      "ticker": "VST",
+      "weight": 0.1667
+    },
+    {
+      "ticker": "TE",
+      "weight": 0.1667
+    },
+    {
+      "ticker": "TSLA",
+      "weight": 0.1667
+    },
+    {
+      "ticker": "BE",
+      "weight": 0.1667
+    },
+    {
+      "ticker": "TLN",
+      "weight": 0.1667
+    },
+    {
+      "ticker": "GEV",
+      "weight": 0.1665
+    }
+  ],
+  "sized_illustrative_100k": [
+    {
+      "ticker": "VST",
+      "weight": 0.1667,
+      "target_dollars": 16670.0
+    },
+    {
+      "ticker": "TE",
+      "weight": 0.1667,
+      "target_dollars": 16670.0
+    },
+    {
+      "ticker": "TSLA",
+      "weight": 0.1667,
+      "target_dollars": 16670.0
+    },
+    {
+      "ticker": "BE",
+      "weight": 0.1667,
+      "target_dollars": 16670.0
+    },
+    {
+      "ticker": "TLN",
+      "weight": 0.1667,
+      "target_dollars": 16670.0
+    },
+    {
+      "ticker": "GEV",
+      "weight": 0.1665,
+      "target_dollars": 16650.0
+    }
+  ],
+  "coverage": {
+    "requested": 5,
+    "used": 5,
+    "missing": [],
+    "short": []
+  },
+  "caveats": [
+    "Equal weight is a placeholder until MarketData closes support a Portfolio optimize/rebalance run.",
+    "Do not invent fills, equity, or P&L \u2014 size against an owner-supplied balance only.",
+    "Thesis is forward-looking; 13F lag and prior sector runs do not prove these five outperform."
+  ],
+  "paper": "registry/models/research/ai-ecosystem-power-markets.md",
+  "journal": "database/cabinet/research/01.09.2026-ai-ecosystem-power-markets.txt",
+  "list": "App/QSResearch/config/lists/research_watchlist.json"
+}

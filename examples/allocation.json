@@ -1,0 +1,18 @@
+{
+  "run_id": 3,
+  "universe": "research_growth",
+  "strategy": "min_var",
+  "as_of": "2026-08-22",
+  "source": "marketdata.prices_daily",
+  "lookback_days": 250,
+  "long_only": true,
+  "allocations": [
+    {"ticker": "AAPL", "weight": 0.1842}
+  ],
+  "coverage": {
+    "requested": 24,
+    "used": 21,
+    "missing": ["XYZ"],
+    "short": ["ABCD"]
+  }
+}

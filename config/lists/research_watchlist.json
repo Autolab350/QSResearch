@@ -1,0 +1,543 @@
+{
+  "watchlist": {
+    "ai_energy": {
+      "description": "AI supercycle energy bottleneck \u2014 generation / fuel cells / flexible power / equipment after memory-chips-photonics run",
+      "strategy": "Thesis universe; prefer Portfolio equal_weight or min_var over blind clone. Overlaps SA LP 13F long book on BE, TE only; Thiel Macro on VST. Owner add 02.10.2026: GEV (turbines + electrification for data centers).",
+      "as_of": "2026-10-02",
+      "source": "desk thesis \u00b7 owner interest \u00b7 not broker fills",
+      "tags": [
+        "research",
+        "watchlist",
+        "ai",
+        "energy"
+      ],
+      "stocks": [
+        "VST",
+        "TE",
+        "TSLA",
+        "BE",
+        "TLN",
+        "GEV"
+      ],
+      "paper": "data/models/research/ai-ecosystem-power-markets.md",
+      "journal": "data/notes/day/02.10.2026-owner-energy-interest-ccj-bep-gev-nee-cop.txt"
+    },
+    "ai_grid_utilities": {
+      "description": "Regulated + merchant + renewable power for AI data-center load \u2014 Thiel Macro core plus owner renewables adds",
+      "strategy": "Grid / utility electrons underneath AI factories. Owner add 02.10.2026: NEE (Project Star / Dominion path), BEP (Brookfield renewables + Westinghouse adjacency). Prefer equal_weight or min_var; not a blind 13F clone.",
+      "as_of": "2026-10-02",
+      "source": "Thiel Macro LLC 13F-HR \u00b7 owner interest 02.10.2026 \u00b7 not broker fills",
+      "tags": [
+        "research",
+        "watchlist",
+        "ai",
+        "energy",
+        "utilities",
+        "grid",
+        "renewables"
+      ],
+      "stocks": [
+        "AEP",
+        "CMS",
+        "DTE",
+        "FE",
+        "VST",
+        "NEE",
+        "BEP"
+      ],
+      "paper": "data/models/research/ai-grid-utilities-thiel-13f.md",
+      "journal": "data/notes/day/02.10.2026-owner-energy-interest-ccj-bep-gev-nee-cop.txt",
+      "excluded_from_filing": {
+        "AMZN": "demand-side hyperscaler anchor \u2014 not an electron supplier",
+        "VIST": "Argentina shale (Vista Energy) \u2014 fuel adjacency, not US grid utility",
+        "XE": "X-Energy nuclear developer stub (~0.9%) \u2014 keep on watch, not core utility sleeve"
+      }
+    },
+    "biotech_catalyst": {
+      "description": "Medical / oncology binaries and commercial cell-therapy names with MRNA-like gap potential \u2014 forum + catalyst calendar, not a clone of post-print MRNA",
+      "strategy": "Separate sleeve from energy. Prefer equal_weight research weights. For ~$500 long calls prefer Tier-1 spots (IVA IOVA NTLA LEGN NVAX); BNTX ABVX CRSP are thesis peers with richer ATM LEAPs.",
+      "as_of": "2026-09-30",
+      "source": "desk research \u00b7 Reddit r/biotech_stocks r/wallstreetbets \u00b7 X \u00b7 company PR \u00b7 yfinance screen \u2014 not broker fills",
+      "tags": [
+        "research",
+        "watchlist",
+        "biotech",
+        "oncology",
+        "catalyst"
+      ],
+      "stocks": [
+        "IVA",
+        "IOVA",
+        "NTLA",
+        "LEGN",
+        "BNTX",
+        "ABVX",
+        "NVAX",
+        "CRSP"
+      ],
+      "tier1_500_atm_leap_fit": [
+        "IVA",
+        "IOVA",
+        "NTLA",
+        "LEGN",
+        "NVAX"
+      ],
+      "tier2_rich_atm_leap": [
+        "BNTX",
+        "ABVX",
+        "CRSP"
+      ],
+      "reference_printed": [
+        "MRNA"
+      ],
+      "journal": "data/notes/day/30.09.2026-biotech-energy-forum-watchlist.txt"
+    },
+    "ai_energy_expand": {
+      "description": "AI-power peers beyond core VST sleeve \u2014 nuclear, renewables, SMR/HALEU/uranium fuel, turbines, hydrocarbon fuel adjacency",
+      "strategy": "Overlay on research_ai_energy + research_ai_grid_utilities. Do not merge with biotech_catalyst. Owner add 02.10.2026: CCJ, BEP, GEV, COP (NEE already listed).",
+      "as_of": "2026-10-02",
+      "source": "forum screen 30.09.2026 \u00b7 owner interest 02.10.2026 \u00b7 company PR \u2014 not broker fills",
+      "tags": [
+        "research",
+        "watchlist",
+        "ai",
+        "energy",
+        "nuclear",
+        "smr",
+        "uranium",
+        "lng"
+      ],
+      "stocks": [
+        "CEG",
+        "NRG",
+        "NEE",
+        "OKLO",
+        "SMR",
+        "LEU",
+        "CCJ",
+        "BEP",
+        "GEV",
+        "COP"
+      ],
+      "owner_adds_2026_10_02": [
+        "CCJ",
+        "BEP",
+        "GEV",
+        "NEE",
+        "COP"
+      ],
+      "owner_stance": "LOCKED long_hold_bullish 02.10.2026 \u2014 multi-year accumulate CCJ BEP GEV NEE COP; shares first",
+      "hold_priority": [
+        "CCJ",
+        "BEP",
+        "GEV",
+        "NEE",
+        "COP"
+      ],
+      "atm_leap_fit_500_note": "Long-hold book prefers shares; if options, NEE/BEP closer to small-account ATM than GEV/CCJ/COP",
+      "core_sleeve_overlap": [
+        "VST",
+        "TLN",
+        "BE",
+        "TE",
+        "CMS",
+        "GEV",
+        "NEE",
+        "BEP"
+      ],
+      "notes": {
+        "CCJ": "Uranium / Westinghouse fuel-cycle \u2014 US\u2013Korea nuclear framework Sep 30",
+        "BEP": "Brookfield renewables \u2014 structure simplification vote Oct 14; Westinghouse adjacency via Brookfield",
+        "GEV": "Gas turbines + electrification \u2014 >$5B H1 data-center orders",
+        "NEE": "Project Star TX gas/data campus; Dominion combination path; Q3 print Oct 27",
+        "COP": "Hydrocarbon fuel adjacency (LNG/gas) \u2014 not pure electrons; Norway/Teesside portfolio review Oct 1"
+      },
+      "journal": "data/notes/day/02.10.2026-owner-energy-interest-ccj-bep-gev-nee-cop.txt"
+    },
+    "owner_energy_long_hold": {
+      "description": "Owner-locked multi-year long-hold bullish set \u2014 CCJ BEP GEV NEE COP",
+      "strategy": "Shares / accumulate first. Equal_weight research proposal for the five; do not mix with biotech binaries. Overlay sits inside energy stack.",
+      "as_of": "2026-10-02",
+      "source": "owner stance LOCKED 02.10.2026 \u00b7 recent news \u00b7 not broker fills",
+      "tags": [
+        "research",
+        "watchlist",
+        "energy",
+        "long_hold",
+        "owner"
+      ],
+      "stocks": [
+        "CCJ",
+        "BEP",
+        "GEV",
+        "NEE",
+        "COP"
+      ],
+      "stance": "long_hold_bullish",
+      "product": "shares_first",
+      "fund_via": "insurance_credit + diversified_wheel \u2192 cash \u2192 buy shares (see notes/day/02.10.2026-income-to-long-hold-energy-five.txt)",
+      "buy_priority_by_capital": [
+        "BEP",
+        "NEE",
+        "CCJ",
+        "COP",
+        "GEV"
+      ],
+      "journal": "data/notes/day/02.10.2026-owner-energy-interest-ccj-bep-gev-nee-cop.txt"
+    },
+    "finance_owner": {
+      "description": "Owner Finance app watchlist \u2014 50 tracked securities (not confirmed brokerage holdings)",
+      "strategy": "Research universe for Portfolio equal_weight / min_var proposals. Cross-check against energy and biotech sleeves; do not treat as live book until holdings JSON is provided.",
+      "as_of": "2026-10-02",
+      "source": "owner Finance watchlist paste \u00b7 tracked symbols only \u00b7 not broker fills",
+      "tags": [
+        "research",
+        "watchlist",
+        "owner",
+        "finance"
+      ],
+      "stocks": [
+        "RBA",
+        "BWXT",
+        "PSN",
+        "ASML",
+        "SHLD",
+        "RCAT",
+        "RGLD",
+        "TTWO",
+        "CTVA",
+        "AI.PA",
+        "FTAI",
+        "RIO",
+        "VALE",
+        "ASX",
+        "AA",
+        "LYSDY",
+        "XYL",
+        "FTI",
+        "FGR.AX",
+        "GRA.TO",
+        "CVX",
+        "MRK",
+        "IBM",
+        "BHP",
+        "AEIS",
+        "ETN",
+        "CME",
+        "AIT",
+        "PWR",
+        "CAT",
+        "VEOEY",
+        "AWK",
+        "TRP",
+        "NVDA",
+        "TSM",
+        "TSLA",
+        "SEDG",
+        "ENPH",
+        "AIQUY",
+        "APD",
+        "LIN",
+        "NLLSY",
+        "ITM.L",
+        "BE",
+        "PL",
+        "SLAB",
+        "NODL.OL",
+        "QCOM",
+        "STM",
+        "TXN"
+      ],
+      "n": 50,
+      "journal": "data/notes/day/02.10.2026-owner-finance-watchlist-portfolio.txt"
+    },
+    "owner_target_ten": {
+      "description": "Owner Oct 8 trending basket \u2014 nuclear / fuel cells / AI cloud / semis / defense-space-drones inside full ~82-ticker Portfolio watch",
+      "strategy": "LONG_HOLD shares-first (sell only if thesis breaks or capital needed). Entry via QSConnect assess + daily golden/FVG zone; Autodesk CSP at designated support strike when collateral fits. Separate from owner_energy_long_hold and biotech_catalyst.",
+      "as_of": "2026-10-08",
+      "source": "owner target list 08.10.2026 \u00b7 DOE/Meta/defense tape \u00b7 QSConnect assess+structure+chain \u00b7 not broker fills",
+      "tags": [
+        "research",
+        "watchlist",
+        "owner",
+        "long_hold",
+        "ai",
+        "energy",
+        "nuclear",
+        "semis",
+        "defense",
+        "space"
+      ],
+      "stocks": [
+        "OKLO",
+        "BE",
+        "TE",
+        "NBIS",
+        "IREN",
+        "INTC",
+        "MU",
+        "ONDS",
+        "UMAC",
+        "RKLB"
+      ],
+      "stance": "long_hold_bullish",
+      "product": "shares_first_csp_as_entry",
+      "gov_contract_anchor": [
+        "OKLO",
+        "ONDS",
+        "UMAC",
+        "INTC"
+      ],
+      "csp_fit_5k": [
+        "OKLO",
+        "TE",
+        "IREN",
+        "ONDS",
+        "UMAC"
+      ],
+      "csp_fit_10k": [
+        "OKLO",
+        "TE",
+        "IREN",
+        "ONDS",
+        "UMAC",
+        "RKLB"
+      ],
+      "shares_or_leaps_only": [
+        "BE",
+        "NBIS",
+        "INTC",
+        "MU"
+      ],
+      "designated_entries_2026_10_08": {
+        "TE": {
+          "zone": [
+            3.72,
+            3.79
+          ],
+          "csp": 3.75,
+          "deep": 3.52,
+          "timing": "IN_ZONE"
+        },
+        "OKLO": {
+          "zone": [
+            37.02,
+            37.84
+          ],
+          "csp": 37.43,
+          "deep": 34.38,
+          "timing": "SCALE_UNDER_ZONE"
+        },
+        "ONDS": {
+          "zone": [
+            7.42,
+            7.52
+          ],
+          "csp": 7.47,
+          "deep": 6.98,
+          "timing": "DEEP_OR_RECLAIM"
+        },
+        "UMAC": {
+          "zone": [
+            23.17,
+            23.66
+          ],
+          "csp": 23.42,
+          "deep": 20.64,
+          "timing": "DEEP_OR_RECLAIM"
+        },
+        "IREN": {
+          "zone": [
+            41.08,
+            41.62
+          ],
+          "csp": 41.35,
+          "deep": 38.34,
+          "timing": "DEEP_LIVE"
+        },
+        "INTC": {
+          "zone": [
+            118.57,
+            119.98
+          ],
+          "csp": 119.28,
+          "deep": 94.52,
+          "timing": "WAIT_RECLAIM"
+        },
+        "BE": {
+          "zone": [
+            270.8,
+            276.83
+          ],
+          "csp": 273.81,
+          "deep": 249.05,
+          "timing": "WAIT_PULLBACK"
+        },
+        "NBIS": {
+          "zone": [
+            221.68,
+            227.18
+          ],
+          "csp": 224.43,
+          "deep": 203.87,
+          "timing": "WAIT_PULLBACK"
+        },
+        "MU": {
+          "zone": [
+            1055.41,
+            1065.45
+          ],
+          "csp": 1060.43,
+          "deep": 902.6,
+          "timing": "WAIT_PULLBACK"
+        },
+        "RKLB": {
+          "zone": [
+            66.22,
+            67.98
+          ],
+          "csp": 67.1,
+          "deep": 60.51,
+          "timing": "WAIT_PULLBACK"
+        }
+      },
+      "calendar": {
+        "BE": "Q3 2026-10-27",
+        "INTC": "Q3 2026-10-29",
+        "IREN": "earnings ~Nov 2026"
+      },
+      "notes": {
+        "OKLO": "DOE OTA+NSDA Aurora-INL; Meta 1.2GW Pike; long-hold nuclear",
+        "BE": "AI on-site power; wait ~274 zone; Q3 10/27",
+        "TE": "IN ZONE 3.72\u20133.79 \u2014 work shares/CSP now",
+        "NBIS": "Wait ~224; Inferize / Rosenblatt \u2014 commercial not DOE",
+        "IREN": "Deep ~38.34 live; mixed flow after SemiAnalysis hit",
+        "INTC": "Wait reclaim ~119; Terafab/CHIPS long-hold",
+        "MU": "Wait ~1060; HBM cycle \u2014 shares only at this spot",
+        "ONDS": "Defense orders >$165M; deep 6.98 or reclaim 7.47",
+        "UMAC": "NDAA drone ramp; deep 20.64 or reclaim 23.42",
+        "RKLB": "Wait ~67; Synspective backlog long-hold"
+      },
+      "journal": "data/notes/day/08.10.2026-owner-target-ten-oklo-be-te-nbis-iren-intc-mu-onds-umac-rklb.txt"
+    },
+    "owner_ai_infra": {
+      "description": "Owner AI infra stack \u2014 nuclear/power generation + data-center power/cooling + memory + networking + custom silicon",
+      "strategy": "Research equal_weight or min_var. Overlaps ai_energy (VST) and ai_energy_expand (CEG); MU also on prior target-ten. Prefer shares \u2014 spots are rich for small CSPs. Separate from biotech_catalyst and owner_energy_long_hold.",
+      "as_of": "2026-10-11",
+      "source": "owner add 11.10.2026 \u00b7 X/web tape \u00b7 yfinance \u00b7 not broker fills",
+      "tags": [
+        "research",
+        "watchlist",
+        "owner",
+        "ai",
+        "infra",
+        "nuclear",
+        "semis",
+        "networking"
+      ],
+      "stocks": [
+        "CEG",
+        "VST",
+        "VRT",
+        "MU",
+        "ANET",
+        "AVGO"
+      ],
+      "layers": {
+        "electrons": [
+          "CEG",
+          "VST"
+        ],
+        "power_cooling": [
+          "VRT"
+        ],
+        "memory": [
+          "MU"
+        ],
+        "networking": [
+          "ANET"
+        ],
+        "custom_silicon": [
+          "AVGO"
+        ]
+      },
+      "calendar": {
+        "VRT": "Q3 2026-10-28",
+        "ANET": "Q3 2026-11-03"
+      },
+      "notes": {
+        "CEG": "Google ~3.59 GW deals (890 MW uprates + 2.7 GW supply); Amazon Calvert Cliffs; Crane/MSFT path",
+        "VST": "DOE up to $4.2B nuclear upgrades; Meta ~2.6 GW; Google deal read-through",
+        "VRT": "DC power/cooling; FY26 guide raised; Q3 10/28",
+        "MU": "HBM/DRAM tight through 27\u201328; boom prints; rich spot",
+        "ANET": "AI fabrics + scale-across; FY26 ~$12.6B guide; Q3 11/03",
+        "AVGO": "Q3 AI semi boom; Anthropic/OpenAI/Meta XPU roadmap; Tomahawk networking"
+      },
+      "overlap": {
+        "ai_energy": [
+          "VST"
+        ],
+        "ai_energy_expand": [
+          "CEG"
+        ]
+      },
+      "journal": "data/notes/day/11.10.2026-owner-ai-infra-ceg-vst-vrt-mu-anet-avgo.txt"
+    },
+    "owner_semi_equip_calls": {
+      "description": "Owner call-potential sleeve \u2014 Cerebras AI inference + WFE trio (AMAT KLAC LRCX)",
+      "strategy": "Research for long calls / LEAPs. ATM debits are rich ($2k\u2013$5k); $500 only deep OTM lottery. Prefer defined-risk calls over CSP (spots $147\u2013$498). Separate from energy long-hold and biotech. AMAT also on finance_owner.",
+      "as_of": "2026-10-13",
+      "source": "owner interest 13.10.2026 \u00b7 X/web \u00b7 yfinance chain screen \u00b7 not broker fills",
+      "tags": [
+        "research",
+        "watchlist",
+        "owner",
+        "calls",
+        "semis",
+        "wfe",
+        "ai"
+      ],
+      "stocks": [
+        "CBRS",
+        "AMAT",
+        "KLAC",
+        "LRCX"
+      ],
+      "product": "long_calls_research",
+      "atm_jan27_debit_usd_approx": {
+        "CBRS": 2280,
+        "AMAT": 5378,
+        "KLAC": 2250,
+        "LRCX": 3492
+      },
+      "otm_500_debit_approx": {
+        "CBRS": {
+          "strike": 240,
+          "debit": 430
+        },
+        "AMAT": {
+          "strike": 760,
+          "debit": 470
+        },
+        "KLAC": {
+          "strike": 270,
+          "debit": 415
+        },
+        "LRCX": {
+          "strike": 450,
+          "debit": 480
+        }
+      },
+      "calendar": {
+        "CBRS": "lockup ~19.4M shares 2026-10-14; larger unlock with Q3 / by 2026-11-10"
+      },
+      "notes": {
+        "CBRS": "May IPO @$185; ~$147 after \u221210% 10/12; backlog / OpenAI narrative; lockup supply risk",
+        "AMAT": "WFE / materials + Intel EPIC R&D; AI logic/HBM/packaging demand; semicap beta",
+        "KLAC": "Process control / inspection \u2014 AI node intensity; China + valuation watch",
+        "LRCX": "Etch/deposition WFE peer to AMAT; AI foundry capex beta"
+      },
+      "journal": "data/notes/day/13.10.2026-owner-semi-equip-calls-cbrs-amat-klac-lrcx.txt"
+    }
+  }
+}

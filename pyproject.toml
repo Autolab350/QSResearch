@@ -3,18 +3,35 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "strategy"
+name = "portfolio"
 version = "0.1.0"
-description = "QS desk strategy: allocations and trade Intent from text or levels. Proposes only."
-readme = "README.md"
+description = "Universe to optimizer to target weights. Proposes allocations; never sends orders."
+readme = "readme.md"
 requires-python = ">=3.10"
-dependencies = []
+license = { text = "MIT" }
+authors = [{ name = "MAT" }]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.10",
+    "duckdb>=1.0",
+    "python-dotenv>=1.0",
+]
 
 [project.optional-dependencies]
-dev = ["pytest>=8"]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+portfolio = "portfolio.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["strategy*"]
+where = ["."]
+include = ["portfolio*"]
+
+[tool.setuptools.package-data]
+portfolio = ["store/*.sql"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+addopts = "-q"

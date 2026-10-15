@@ -1,0 +1,7 @@
+{
+  "cash": 1000.0,
+  "positions": [
+    {"ticker": "AAPL", "shares": 10},
+    {"ticker": "MSFT", "shares": 5}
+  ]
+}

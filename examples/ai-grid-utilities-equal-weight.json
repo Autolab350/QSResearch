@@ -1,0 +1,86 @@
+{
+  "universe": "research_ai_grid_utilities",
+  "strategy": "equal_weight",
+  "as_of": "2026-10-02",
+  "source": "thiel_macro_13f.sleeve",
+  "long_only": true,
+  "thesis": "Thiel Macro power sleeve + owner renewables adds (NEE, BEP) for AI DC load.",
+  "thiel_macro": {
+    "cik": "0001562087",
+    "accession": "0001315863-26-000593",
+    "period": "2026-06-30",
+    "table_value_usd": 418666506
+  },
+  "allocations": [
+    {
+      "ticker": "AEP",
+      "weight": 0.1429
+    },
+    {
+      "ticker": "CMS",
+      "weight": 0.1429
+    },
+    {
+      "ticker": "DTE",
+      "weight": 0.1429
+    },
+    {
+      "ticker": "FE",
+      "weight": 0.1429
+    },
+    {
+      "ticker": "VST",
+      "weight": 0.1429
+    },
+    {
+      "ticker": "NEE",
+      "weight": 0.1429
+    },
+    {
+      "ticker": "BEP",
+      "weight": 0.1426
+    }
+  ],
+  "sized_illustrative_100k": [
+    {
+      "ticker": "AEP",
+      "weight": 0.1429,
+      "target_dollars": 14290.0
+    },
+    {
+      "ticker": "CMS",
+      "weight": 0.1429,
+      "target_dollars": 14290.0
+    },
+    {
+      "ticker": "DTE",
+      "weight": 0.1429,
+      "target_dollars": 14290.0
+    },
+    {
+      "ticker": "FE",
+      "weight": 0.1429,
+      "target_dollars": 14290.0
+    },
+    {
+      "ticker": "VST",
+      "weight": 0.1429,
+      "target_dollars": 14290.0
+    },
+    {
+      "ticker": "NEE",
+      "weight": 0.1429,
+      "target_dollars": 14290.0
+    },
+    {
+      "ticker": "BEP",
+      "weight": 0.1426,
+      "target_dollars": 14260.0
+    }
+  ],
+  "paper": "registry/models/research/ai-grid-utilities-thiel-13f.md",
+  "caveats": [
+    "Illustrative equal weight until MarketData closes support portfolio run.",
+    "13F lagged. Do not invent fills."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "universe": "research_biotech_catalyst",
+  "strategy": "equal_weight",
+  "as_of": "2026-09-30",
+  "source": "desk.thesis.biotech_catalyst",
+  "long_only": true,
+  "thesis": "Forum-sourced medical catalysts with MRNA-like binary gap potential; separate from AI-energy sleeves. Tier-1 names still fit ~$500 near-ATM 2027 calls on 30.09.2026 screen.",
+  "names": {
+    "IVA": "Inventiva",
+    "IOVA": "Iovance",
+    "NTLA": "Intellia",
+    "LEGN": "Legend Biotech",
+    "BNTX": "BioNTech",
+    "ABVX": "Abivax",
+    "NVAX": "Novavax",
+    "CRSP": "CRISPR Therapeutics"
+  },
+  "tier_note": {
+    "tier1_500_atm": ["IVA", "IOVA", "NTLA", "LEGN", "NVAX"],
+    "tier2_rich_atm": ["BNTX", "ABVX", "CRSP"],
+    "excluded_reference": ["MRNA"]
+  },
+  "allocations": [
+    {"ticker": "IVA", "weight": 0.125},
+    {"ticker": "IOVA", "weight": 0.125},
+    {"ticker": "NTLA", "weight": 0.125},
+    {"ticker": "LEGN", "weight": 0.125},
+    {"ticker": "BNTX", "weight": 0.125},
+    {"ticker": "ABVX", "weight": 0.125},
+    {"ticker": "NVAX", "weight": 0.125},
+    {"ticker": "CRSP", "weight": 0.125}
+  ],
+  "disclaimer": "Research proposal only — Portfolio proposes; never sends orders. No invented fills."
+}
